@@ -1,0 +1,524 @@
+
+
+ 
+[class*="col-"] {
+    padding: 1rem;
+}
+
+.btn-search {
+    background-color: #00BABE; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.btn-searchpatient {
+    color: black;
+    border-color: #00BABE;
+    background: transparent;
+}
+
+.btn-searchpatient:hover {
+    border-color: #00BABE;
+    background: #DDF7F7;
+}
+
+.btn-searchdisease {
+    border-color: #00BABE;
+    background: transparent;
+}
+
+.btn-searchdisease:hover {
+    color: black;
+    border-color: #00BABE;
+    background: #DDF7F7;
+}
+
+.btn-searchmedicalservice {
+    border-color: #00BABE;
+    background: transparent;
+}
+
+.btn-searchmedicalservice:hover {
+    color: black;
+    border-color: #00BABE;
+    background: #DDF7F7;
+}
+
+.btn-searchdrug {
+    border-color: #00BABE;
+    background: transparent;
+}
+
+.btn-searchdrug:hover {
+    color: black;
+    border-color: #00BABE;
+    background: #DDF7F7;
+}
+
+.btn-signout {
+    background-color: #00BABE; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn-form {
+    background-color: #00BABE;
+    color: white
+}
+
+.btn-form:hover {
+    color:#FFFFFF; 
+    background-color:rgb(41, 216, 219)
+}
+
+.btn-add {
+    background-color: #00BABE;
+    color: white
+}
+
+.btn-add:hover {
+    color:#FFFFFF; 
+    background-color:rgb(41, 216, 219)
+}
+
+.btn-viewall {
+    border-color: #00BABE;
+    background: transparent;
+}
+
+.btn-viewall:hover {
+    color: black;
+    background: #DDF7F7;
+    border-color: #00BABE;
+}
+
+.btn-closeForm {
+    background: transparent;
+    border: none;
+}
+
+.btn-return {
+    color: white;
+    background: #00BABE;
+    border-color: #00BABE;
+}
+
+.btn-return:hover {
+    border-color: rgb(41, 216, 219);
+    background-color:rgb(41, 216, 219)
+}
+
+.btn-visitLogForm {
+    border-color: #00BABE;
+    background: transparent;
+}
+
+.btn-visitLogForm:hover {
+    color: white;
+    border-color: #00BABE;
+    background: #00BABE;
+}
+
+.btn-option {
+    color: #00BABE;
+    border-color: #00BABE;
+    width: 300px;
+    display: inline-block;
+}
+
+.btn-option:hover {
+    color: white;
+    border-color: #00BABE;
+    background: #00BABE;
+}
+
+.btn-addrow {
+    border-color: #00BABE;
+    background: transparent;
+}
+
+.btn-addrow:hover {
+    border-color: #00BABE;
+    background: #DDF7F7;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+}
+
+.error {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #00BABE;
+    font-size: 40px;
+}
+
+.errorIcon {
+    width:  400px;
+    height: 300px;
+}
+
+.disease-item {
+    background: #00BABE;
+    color: white;
+    border: none;
+}
+
+.detail-group {
+    border: 1px solid #00BABE;
+    padding: 3px 5px 3px 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    padding-top: 2rem;
+    color: white;
+    background-color: #00BABE;
+}
+
+.form-container {
+    color: #222;
+    border: 1px solid #fff; 
+    padding: 30px 40px;
+    margin-top: 20vh;
+    -webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+}
+
+.visitform-container {
+    border: 1px solid #00BABE; 
+    margin-top: 20vh;
+    text-align: center;
+}
+
+.homepage {
+    height: 100%;
+    width:100%;
+    font-family:  'Poppins', sans-serif;
+    color:  #222;
+}
+
+.global-navbar {
+    background: white;
+    width:100%;
+	float: left;
+	margin: 0 0 1em 0;
+    padding: 0;
+    
+}
+
+hr.light {
+    border-top: 1px solid white;
+}
+
+.header-logo {
+    height: 50px;
+} 
+
+.icon {
+    color: #00BABE;
+}
+
+.icon-color {
+    color: white;
+}
+
+.internal-navbar {
+    text-align: center;
+    margin-left: 160px;
+} 
+
+.img-service {
+    position: relative;
+    width:  250px;
+    height: 200px;
+}
+
+.img-jumbotron {
+    background-image: url("https://www.intechnic.com/hubfs/Blog/Featured%20Images/12%20Best%20Hospital%20and%20Healthcare%20Websites.jpg?t=1535133036816");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:  1000px;
+    height: 400px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+}
+
+.internal-signout {
+    display: block;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.img-role {
+    width:  100px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    filter: alpha(opacity = 90);
+}
+
+.btn-login {
+    color: white;
+    border-color: #00BABE;
+    background-color: #00BABE;
+    text-align: center
+}
+
+.btn-login:hover {
+    color:#FFFFFF; 
+    border-color: rgb(41, 216, 219);
+    background-color: rgb(41, 216, 219);
+}
+
+.btn-returnhome {
+    color: white;
+    border-color: #00BABE;
+    background-color: #00BABE;
+    text-align: center
+}
+
+.btn-returnhome:hover {
+    color:#FFFFFF; 
+    border-color: rgb(41, 216, 219);
+    background-color: rgb(41, 216, 219);
+}
+
+.mr-3 {
+    margin-right: 3px
+}
+
+.mr-5 {
+    margin-right: 5px
+}
+
+.mr-20 {
+    margin-right: 20px
+}
+
+.mr-30 {
+    margin-right: 30px
+}
+
+.mr-40 {
+    margin-right: 40px
+}
+
+.ml-20 {
+    margin-left: 20px
+}
+
+.ml-3 {
+    margin-left: 3px
+}
+.ml-5 {
+    margin-left: 5px
+}
+.ml-10 {
+    margin-left: 10px
+}
+
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-search {
+    width:100%;
+    background-color: #00BABE;
+    color: white;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+    color: #00BABE;
+}
+
+.navtab-link a {
+    color: #00BABE;
+}
+
+.panel-border {
+    border-color: #00BABE
+}
+
+.card-header {
+    background-color: #00BABE;
+    text-align: "center";
+    color: white; 
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.system-nav-link {
+    display: block;
+    color: white;
+    line-height: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+
+.system-nav-link:hover {
+    color: white;
+    background-color: #0d7e80;
+}
+
+.system-subnav-link {
+    display: block;
+    color: white;
+    line-height: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: -8px;
+}
+
+.system-subnav-link:hover {
+    color: white;
+    background-color: #0d7e80;
+}
+
+
+.search-box {
+    border-radius: 15px;
+}
+
+.sub-menu {
+    text-align: center;
+}
+
+.system-link {
+    color: white;
+}
+
+.system-sidenav {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #00BABE;
+    overflow-x: hidden;
+    padding-top: 50px;
+}
+
+.system-sidenav .account-role {
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.table-header {
+    background: #00BABE;
+    color: white
+}
+
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.welcome hr {
+    border-top: 2px solid #00BABE;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: .1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
