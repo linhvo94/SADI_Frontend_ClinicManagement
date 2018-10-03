@@ -14,7 +14,7 @@ ACCOUNT:
 
 ***Note: 
 	1. If you check the back end directly (not through UI), you MUST get access token for every role (doctor, nurse, patient, admin). Normal user who does not have account will only be able to access home page and see all medical services (get all medical service function).
-	2. Due to some restrictions caused by the server (such as image crash, url including hash), our website is believed to be at its best condition only when it is ran local mode. Local mode will have better redirection if an account tries to access a page which is not authorized for it.
+
 
 ----I. BACKEND----------------------------------------------
 1/Patient
